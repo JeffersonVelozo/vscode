@@ -110,6 +110,9 @@
 			};
 		} else {
 			loaderConfig.amdModulesPattern = /^vs\//;
+			loaderConfig.paths = {
+				'jschardet': `../node_modules/jschardet/dist/jschardet.min.js`
+			};
 		}
 
 		// cached data config
